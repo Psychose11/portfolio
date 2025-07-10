@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown, Github, Linkedin, Twitter } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, Facebook } from 'lucide-react';
 import Pdp from '../assets/pdp.jpg';
 const Hero: React.FC = () => {
   const scrollToProjects = () => {
@@ -45,14 +45,14 @@ const Hero: React.FC = () => {
             </div>
             
             <div className="flex justify-center lg:justify-start space-x-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
-              <a href="#" className="text-white hover:text-secondary transition-colors">
+              <a href="https://github.com/Psychose11" className="text-white hover:text-secondary transition-colors">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="text-white hover:text-secondary transition-colors">
+              <a href="https://www.linkedin.com/in/tahina-sarobidy-779934295/" className="text-white hover:text-secondary transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-white hover:text-secondary transition-colors">
-                <Twitter className="w-6 h-6" />
+              <a href="https://www.facebook.com/fetra.sarobidy.54" className="text-white hover:text-secondary transition-colors">
+                <Facebook className="w-6 h-6" />
               </a>
             </div>
           </div>
