@@ -84,13 +84,13 @@ const Contact: React.FC = () => {
             <div className="mt-8">
               <h4 className="text-lg font-semibold mb-4">Follow Me</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-secondary/20 rounded-lg flex items-center justify-center hover:bg-secondary/30 transition-colors">
+                <a href="https://github.com/Psychose11" className="w-10 h-10 bg-secondary/20 rounded-lg flex items-center justify-center hover:bg-secondary/30 transition-colors">
                   <Github className="w-5 h-5 text-secondary" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-secondary/20 rounded-lg flex items-center justify-center hover:bg-secondary/30 transition-colors">
+                <a href="https://www.linkedin.com/in/tahina-sarobidy-779934295/" className="w-10 h-10 bg-secondary/20 rounded-lg flex items-center justify-center hover:bg-secondary/30 transition-colors">
                   <Linkedin className="w-5 h-5 text-secondary" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-secondary/20 rounded-lg flex items-center justify-center hover:bg-secondary/30 transition-colors">
+                <a href="https://www.facebook.com/fetra.sarobidy.54" className="w-10 h-10 bg-secondary/20 rounded-lg flex items-center justify-center hover:bg-secondary/30 transition-colors">
                   <Facebook className="w-5 h-5 text-secondary" />
                 </a>
               </div>

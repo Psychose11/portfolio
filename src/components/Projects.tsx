@@ -18,20 +18,6 @@ const Projects: React.FC = () => {
         features: ['Multi user', 'Real-time texting', 'Push Notifications', 'CV Download']
       }
     },
-    // {
-    //   id: 2,
-    //   title: 'Task Management App',
-    //   description: 'A collaborative task management application with real-time updates, team collaboration features, and intuitive project organization.',
-    //   image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
-    //   technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-    //   phone: {
-    //     appName: 'TaskFlow',
-    //     appDescription: 'Team Collaboration Made Easy',
-    //     appImage: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=300',
-    //     features: ['Real-time Sync', 'Team Chat', 'Progress Tracking', 'Smart Notifications']
-    //   }
-    // },
-    
   ];
 
   return (
