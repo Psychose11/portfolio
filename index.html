@@ -1,15 +1,112 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tahina Sarobidy - Software Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- SEO de base -->
+    <title>Tahina Sarobidy – Ingénieur Logiciel, Développeur Fullstack & Spécialiste SEO | Madagascar</title>
+    <meta
+      name="description"
+      content="Tahina Sarobidy, ingénieur logiciel (Master 2, École Nationale d'Informatique), développeur fullstack et spécialiste SEO à Antananarivo. Sites et plateformes sur mesure pour les entreprises de Madagascar et de La Réunion : Aquavela, Fetanoo, ZotCarton, Pretalouer."
+    />
+    <meta
+      name="keywords"
+      content="Tahina Sarobidy, ingénieur logiciel, développeur fullstack, spécialiste SEO, développeur web, webmaster, React, PHP, Alpine.js, MySQL, Tailwind CSS, Madagascar, Antananarivo, portfolio"
+    />
+    <meta name="author" content="Tahina Sarobidy" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <link rel="canonical" href="https://portfolio-0s7f.onrender.com/" />
+
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tahina Sarobidy" />
+    <meta property="og:title" content="Tahina Sarobidy – Ingénieur Logiciel, Développeur Fullstack & Spécialiste SEO" />
+    <meta
+      property="og:description"
+      content="Portfolio de Tahina Sarobidy : ingénieur logiciel, développeur fullstack et spécialiste SEO pour les entreprises de Madagascar et de La Réunion."
+    />
+    <meta property="og:url" content="https://portfolio-0s7f.onrender.com/" />
+    <meta property="og:image" content="https://portfolio-0s7f.onrender.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Portfolio de Tahina Sarobidy, développeur web et webmaster" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="mg_MG" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tahina Sarobidy – Ingénieur Logiciel, Développeur Fullstack & Spécialiste SEO" />
+    <meta
+      name="twitter:description"
+      content="Portfolio de Tahina Sarobidy : ingénieur logiciel, développeur fullstack et spécialiste SEO pour les entreprises de Madagascar et de La Réunion."
+    />
+    <meta name="twitter:image" content="https://portfolio-0s7f.onrender.com/og-image.jpg" />
+
+    <!-- Données structurées (résultats enrichis Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://portfolio-0s7f.onrender.com/#person",
+            "name": "Tahina Sarobidy",
+            "url": "https://portfolio-0s7f.onrender.com/",
+            "image": "https://portfolio-0s7f.onrender.com/og-image.jpg",
+            "jobTitle": "Ingénieur Logiciel, Développeur Fullstack et Spécialiste SEO",
+            "alumniOf": { "@type": "CollegeOrUniversity", "name": "École Nationale d'Informatique" },
+            "description": "Ingénieur logiciel, développeur fullstack et spécialiste SEO basé à Antananarivo, Madagascar. Master 2 de l'École Nationale d'Informatique.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Antananarivo",
+              "addressCountry": "MG"
+            },
+            "knowsAbout": ["React", "PHP", "Alpine.js", "MySQL", "Tailwind CSS", "Node.js", "Flutter", "Python", "SEO", "Web scraping", "Sécurité informatique", "Cryptographie", "Hébergement OVH", "Algorithmes d'optimisation", "Développement web"],
+            "knowsLanguage": ["fr", "en", "mg"],
+            "sameAs": [
+              "https://github.com/Psychose11",
+              "https://www.linkedin.com/in/tahina-sarobidy-779934295/",
+              "https://www.facebook.com/fetra.sarobidy.54"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://portfolio-0s7f.onrender.com/#website",
+            "url": "https://portfolio-0s7f.onrender.com/",
+            "name": "Tahina Sarobidy – Portfolio",
+            "inLanguage": ["fr", "en", "mg"],
+            "publisher": { "@id": "https://portfolio-0s7f.onrender.com/#person" }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://portfolio-0s7f.onrender.com/#profile",
+            "url": "https://portfolio-0s7f.onrender.com/",
+            "name": "Tahina Sarobidy – Ingénieur Logiciel, Développeur Fullstack & Spécialiste SEO",
+            "mainEntity": { "@id": "https://portfolio-0s7f.onrender.com/#person" },
+            "isPartOf": { "@id": "https://portfolio-0s7f.onrender.com/#website" }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
+    <noscript>
+      <h1>Tahina Sarobidy – Ingénieur Logiciel, Développeur Fullstack &amp; Spécialiste SEO</h1>
+      <p>
+        Ingénieur logiciel, développeur fullstack et spécialiste SEO basé à Antananarivo (Madagascar). Projets : Aquavela, Fetanoo, ZotCarton,
+        Pretalouer. Technologies : React, PHP, Alpine.js, MySQL, Python, Tailwind CSS.
+      </p>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -5,17 +5,21 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './dark.css';
+import { AppProvider } from './AppContext';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
-    </div>
+    <AppProvider>
+      <div className="min-h-screen">
+        <Header />
+        <Hero />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
+      </div>
+    </AppProvider>
   );
 }
 

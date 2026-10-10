@@ -1,0 +1,27 @@
+/* Mode sombre : activé par la classe "dark" sur <html> (voir AppContext.tsx).
+   Aucune modification de tailwind.config n'est nécessaire. */
+   .dark body { background: #0f172a; color: #e2e8f0; }
+
+   /* Sections */
+   .dark #projects { background: #111827; }
+   .dark #skills { background: #0f172a; }
+   
+   .dark #projects .text-primary,
+   .dark #skills .text-primary { color: #f1f5f9; }
+   
+   .dark #projects .text-gray-600,
+   .dark #projects .text-gray-700,
+   .dark #skills .text-gray-600,
+   .dark #skills .text-gray-700 { color: #cbd5e1; }
+   
+   .dark #skills .bg-secondary\/20 { background: #1e293b; }
+   .dark #skills .bg-gray-200 { background: #334155; }
+   
+   .dark #projects .bg-white { background: #1f2937; }
+   .dark #projects .bg-gray-100 { background: #1f2937; border-color: #374151; }
+   
+   /* Header */
+   .dark header.bg-white\/95 { background: rgba(15, 23, 42, 0.95); }
+   .dark header .bg-white { background: #0f172a; }
+   .dark header.bg-white\/95 .text-primary { color: #f1f5f9; }
+   .dark header .text-gray-700 { color: #cbd5e1; }
